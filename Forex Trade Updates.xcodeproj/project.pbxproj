@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4280840BB302B7DC1FD73854 /* Pods_Forex_Trade_Updates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BD7C92DD4AEA485FDFA639 /* Pods_Forex_Trade_Updates.framework */; };
+		FA0EBDAC24A33DA600905874 /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EBDAB24A33DA600905874 /* AllUsersVC.swift */; };
+		FA30CC262494A3DC00C502FC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30CC252494A3DC00C502FC /* AuthenticationService.swift */; };
+		FA30CC282494D21A00C502FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30CC272494D21A00C502FC /* Constants.swift */; };
+		FA3E9A022B56DA4F00E89C2C /* How To Take A Signal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA3E99FF2B56DA4C00E89C2C /* How To Take A Signal.pdf */; };
+		FA3E9A032B56DA4F00E89C2C /* How to Secure Profits.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA3E9A002B56DA4D00E89C2C /* How to Secure Profits.pdf */; };
+		FA3E9A042B56DA4F00E89C2C /* What is a Pip.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA3E9A012B56DA4E00E89C2C /* What is a Pip.pdf */; };
+		FA3F42BC2A5C89B600709F55 /* BannerAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F42BB2A5C89B600709F55 /* BannerAdCell.swift */; };
+		FA3F42BE2A5C8BCF00709F55 /* AdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F42BD2A5C8BCF00709F55 /* AdModel.swift */; };
+		FA3F42C12A5D269400709F55 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F42C02A5D269300709F55 /* AdManager.swift */; };
+		FA44409124BD739600055CB7 /* ManageUserSubscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44409024BD739600055CB7 /* ManageUserSubscriptions.swift */; };
+		FA45F6572497FFE600B39135 /* AdminDashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45F6562497FFE600B39135 /* AdminDashboardVC.swift */; };
+		FA466B1A24976901009C96D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA466B1924976901009C96D7 /* GoogleService-Info.plist */; };
+		FA46D4FA249B3FF100570ADA /* NotifSentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46D4F9249B3FF100570ADA /* NotifSentModel.swift */; };
+		FA48F6F724968D660061BF65 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA48F6F624968D660061BF65 /* GameKit.framework */; };
+		FA4A88672496199600DDF760 /* NewNotifForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4A88662496199600DDF760 /* NewNotifForm.swift */; };
+		FA4AA8E124B453D700C4EFC9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4AA8E024B453D700C4EFC9 /* StoreKit.framework */; };
+		FA4AA8E324B4B57E00C4EFC9 /* KBForexProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4AA8E224B4B57E00C4EFC9 /* KBForexProducts.swift */; };
+		FA4AA8E624B4B8EA00C4EFC9 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4AA8E524B4B8EA00C4EFC9 /* IAPManager.swift */; };
+		FA4CBBA82492230700CA5432 /* TestChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CBBA72492230600CA5432 /* TestChatVC.swift */; };
+		FA4D2C2A2492B87200784130 /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D2C292492B87200784130 /* TabBarHome.swift */; };
+		FA4F135D24B219DA00752DB6 /* SubscriptionOptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F135C24B219DA00752DB6 /* SubscriptionOptionsController.swift */; };
+		FA50FDEB24AB701400E40954 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50FDEA24AB701400E40954 /* Message.swift */; };
+		FA50FDED24AB7C9700E40954 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50FDEC24AB7C9700E40954 /* AppSettings.swift */; };
+		FA52A8C124916AFA00BE1E40 /* UserHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52A8C024916AFA00BE1E40 /* UserHomeVC.swift */; };
+		FA52A8C324916B0D00BE1E40 /* UserSupportChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52A8C224916B0D00BE1E40 /* UserSupportChatVC.swift */; };
+		FA530B1624911DE3006A12D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B1524911DE3006A12D4 /* AppDelegate.swift */; };
+		FA530B1A24911DE3006A12D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B1924911DE3006A12D4 /* ViewController.swift */; };
+		FA530B1D24911DE3006A12D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA530B1B24911DE3006A12D4 /* Main.storyboard */; };
+		FA530B2024911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA530B1E24911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodeld */; };
+		FA530B2224911DE5006A12D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA530B2124911DE5006A12D4 /* Assets.xcassets */; };
+		FA530B2524911DE5006A12D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA530B2324911DE5006A12D4 /* LaunchScreen.storyboard */; };
+		FA530B352491239B006A12D4 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B322491239B006A12D4 /* SignupVC.swift */; };
+		FA530B362491239B006A12D4 /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B332491239B006A12D4 /* SigninVC.swift */; };
+		FA530B372491239B006A12D4 /* UserDashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B342491239B006A12D4 /* UserDashVC.swift */; };
+		FA530B3D249123C4006A12D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B38249123C4006A12D4 /* Extensions.swift */; };
+		FA530B3E249123C4006A12D4 /* AlertControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B39249123C4006A12D4 /* AlertControllerHelper.swift */; };
+		FA530B3F249123C4006A12D4 /* CheckInternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B3A249123C4006A12D4 /* CheckInternetConnection.swift */; };
+		FA530B40249123C4006A12D4 /* RoundedtxtFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B3B249123C4006A12D4 /* RoundedtxtFieldView.swift */; };
+		FA530B41249123C4006A12D4 /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530B3C249123C4006A12D4 /* Designable.swift */; };
+		FA5AB75224C2E73D004593CA /* SubscriptionsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AB75124C2E73D004593CA /* SubscriptionsDetailVC.swift */; };
+		FA6B68FB24BF51BF00F42D19 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B68FA24BF51BF00F42D19 /* ForgotPasswordVC.swift */; };
+		FA6D2D6A2A54AE820033AB1D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D2D692A54AE820033AB1D /* ProfileVC.swift */; };
+		FA72E9D02493F0C100A71E21 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72E9CF2493F0C100A71E21 /* SplashScreen.swift */; };
+		FA89FEFD24AAFC51004D84EE /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA89FEFC24AAFC51004D84EE /* Chat.swift */; };
+		FAA5875F24949A1A00E2EC1C /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5875E24949A1A00E2EC1C /* Actions.swift */; };
+		FAA7B0EE2A94E0C200058881 /* FreeReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7B0ED2A94E0C200058881 /* FreeReadVC.swift */; };
+		FAB7FCFE2B62892700D01CD9 /* SubscriptionPopupChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7FCFD2B62892600D01CD9 /* SubscriptionPopupChat.swift */; };
+		FAB86FD12A51D36500E8C00E /* Subscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB86FD02A51D36500E8C00E /* Subscriptions.swift */; };
+		FABC8AF02A99DF3D00F1EE1B /* SubscriptionPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC8AEF2A99DF3C00F1EE1B /* SubscriptionPopup.swift */; };
+		FABE2E102A548F1D00E9DC1E /* NavigationHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE2E0F2A548F1D00E9DC1E /* NavigationHomeVC.swift */; };
+		FABF45632A973F0700305F49 /* KB's Forex E-Book-Master Your Mindset.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FABF45622A973F0600305F49 /* KB's Forex E-Book-Master Your Mindset.pdf */; };
+		FABF45652A97729700305F49 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF45642A97729700305F49 /* UserDefaults.swift */; };
+		FAF850E42A966B410066159C /* LoadPDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF850E32A966B410066159C /* LoadPDFVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A74D45ECEABB74B2752375F /* Pods-Forex Trade Updates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forex Trade Updates.debug.xcconfig"; path = "Target Support Files/Pods-Forex Trade Updates/Pods-Forex Trade Updates.debug.xcconfig"; sourceTree = "<group>"; };
+		3EE079231AA64D0D50320DED /* Pods-Forex Trade Updates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forex Trade Updates.release.xcconfig"; path = "Target Support Files/Pods-Forex Trade Updates/Pods-Forex Trade Updates.release.xcconfig"; sourceTree = "<group>"; };
+		88BD7C92DD4AEA485FDFA639 /* Pods_Forex_Trade_Updates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forex_Trade_Updates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0EBDAB24A33DA600905874 /* AllUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
+		FA30CC252494A3DC00C502FC /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		FA30CC272494D21A00C502FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA3E99FF2B56DA4C00E89C2C /* How To Take A Signal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How To Take A Signal.pdf"; sourceTree = "<group>"; };
+		FA3E9A002B56DA4D00E89C2C /* How to Secure Profits.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How to Secure Profits.pdf"; sourceTree = "<group>"; };
+		FA3E9A012B56DA4E00E89C2C /* What is a Pip.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "What is a Pip.pdf"; sourceTree = "<group>"; };
+		FA3F42BB2A5C89B600709F55 /* BannerAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdCell.swift; sourceTree = "<group>"; };
+		FA3F42BD2A5C8BCF00709F55 /* AdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdModel.swift; sourceTree = "<group>"; };
+		FA3F42C02A5D269300709F55 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		FA44409024BD739600055CB7 /* ManageUserSubscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUserSubscriptions.swift; sourceTree = "<group>"; };
+		FA45F6562497FFE600B39135 /* AdminDashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboardVC.swift; sourceTree = "<group>"; };
+		FA466B1924976901009C96D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA46D4F9249B3FF100570ADA /* NotifSentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifSentModel.swift; sourceTree = "<group>"; };
+		FA48F6F624968D660061BF65 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		FA4A88662496199600DDF760 /* NewNotifForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotifForm.swift; sourceTree = "<group>"; };
+		FA4AA8E024B453D700C4EFC9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FA4AA8E224B4B57E00C4EFC9 /* KBForexProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBForexProducts.swift; sourceTree = "<group>"; };
+		FA4AA8E524B4B8EA00C4EFC9 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		FA4CBBA72492230600CA5432 /* TestChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChatVC.swift; sourceTree = "<group>"; };
+		FA4D2C292492B87200784130 /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
+		FA4F135C24B219DA00752DB6 /* SubscriptionOptionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionOptionsController.swift; sourceTree = "<group>"; };
+		FA50FDEA24AB701400E40954 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FA50FDEC24AB7C9700E40954 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		FA52A8C024916AFA00BE1E40 /* UserHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeVC.swift; sourceTree = "<group>"; };
+		FA52A8C224916B0D00BE1E40 /* UserSupportChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSupportChatVC.swift; sourceTree = "<group>"; };
+		FA530B1224911DE3006A12D4 /* KBs Forex Signals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KBs Forex Signals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA530B1524911DE3006A12D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA530B1924911DE3006A12D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA530B1C24911DE3006A12D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA530B1F24911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Forex_Trade_Updates.xcdatamodel; sourceTree = "<group>"; };
+		FA530B2124911DE5006A12D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA530B2424911DE5006A12D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA530B2624911DE5006A12D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA530B322491239B006A12D4 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		FA530B332491239B006A12D4 /* SigninVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		FA530B342491239B006A12D4 /* UserDashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDashVC.swift; sourceTree = "<group>"; };
+		FA530B38249123C4006A12D4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA530B39249123C4006A12D4 /* AlertControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerHelper.swift; sourceTree = "<group>"; };
+		FA530B3A249123C4006A12D4 /* CheckInternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInternetConnection.swift; sourceTree = "<group>"; };
+		FA530B3B249123C4006A12D4 /* RoundedtxtFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedtxtFieldView.swift; sourceTree = "<group>"; };
+		FA530B3C249123C4006A12D4 /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		FA56941624A4DD4700F23094 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5AB75124C2E73D004593CA /* SubscriptionsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsDetailVC.swift; sourceTree = "<group>"; };
+		FA6B68FA24BF51BF00F42D19 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		FA6D2D692A54AE820033AB1D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		FA72E9CF2493F0C100A71E21 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FA89FEFC24AAFC51004D84EE /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		FAA5875E24949A1A00E2EC1C /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		FAA7B0ED2A94E0C200058881 /* FreeReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeReadVC.swift; sourceTree = "<group>"; };
+		FAB7FCFD2B62892600D01CD9 /* SubscriptionPopupChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPopupChat.swift; sourceTree = "<group>"; };
+		FAB86FD02A51D36500E8C00E /* Subscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriptions.swift; sourceTree = "<group>"; };
+		FABC8AEF2A99DF3C00F1EE1B /* SubscriptionPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPopup.swift; sourceTree = "<group>"; };
+		FABE2E0F2A548F1D00E9DC1E /* NavigationHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHomeVC.swift; sourceTree = "<group>"; };
+		FABF45622A973F0600305F49 /* KB's Forex E-Book-Master Your Mindset.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "KB's Forex E-Book-Master Your Mindset.pdf"; sourceTree = "<group>"; };
+		FABF45642A97729700305F49 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		FAF850E32A966B410066159C /* LoadPDFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPDFVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA530B0F24911DE3006A12D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4AA8E124B453D700C4EFC9 /* StoreKit.framework in Frameworks */,
+				FA48F6F724968D660061BF65 /* GameKit.framework in Frameworks */,
+				4280840BB302B7DC1FD73854 /* Pods_Forex_Trade_Updates.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B80A130422127D783187FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4AA8E024B453D700C4EFC9 /* StoreKit.framework */,
+				FA56941624A4DD4700F23094 /* Alamofire.framework */,
+				FA48F6F624968D660061BF65 /* GameKit.framework */,
+				88BD7C92DD4AEA485FDFA639 /* Pods_Forex_Trade_Updates.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438D0274487CFC067C506214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A74D45ECEABB74B2752375F /* Pods-Forex Trade Updates.debug.xcconfig */,
+				3EE079231AA64D0D50320DED /* Pods-Forex Trade Updates.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA3F42BA2A5C899900709F55 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F42BB2A5C89B600709F55 /* BannerAdCell.swift */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		FA3F42BF2A5D268000709F55 /* Ad Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FA3F42C02A5D269300709F55 /* AdManager.swift */,
+			);
+			path = "Ad Manager";
+			sourceTree = "<group>";
+		};
+		FA46D4F8249B3FD800570ADA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FA46D4F9249B3FF100570ADA /* NotifSentModel.swift */,
+				FA89FEFC24AAFC51004D84EE /* Chat.swift */,
+				FA50FDEA24AB701400E40954 /* Message.swift */,
+				FA3F42BD2A5C8BCF00709F55 /* AdModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FA4AA8E424B4B5C000C4EFC9 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				FA4AA8E524B4B8EA00C4EFC9 /* IAPManager.swift */,
+				FAB86FD02A51D36500E8C00E /* Subscriptions.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		FA4CBBA924925C0700CA5432 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				FA30CC252494A3DC00C502FC /* AuthenticationService.swift */,
+				FA44409024BD739600055CB7 /* ManageUserSubscriptions.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		FA530B0924911DE3006A12D4 = {
+			isa = PBXGroup;
+			children = (
+				FA530B1424911DE3006A12D4 /* Forex Trade Updates */,
+				FA530B1324911DE3006A12D4 /* Products */,
+				438D0274487CFC067C506214 /* Pods */,
+				2B80A130422127D783187FE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA530B1324911DE3006A12D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA530B1224911DE3006A12D4 /* KBs Forex Signals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA530B1424911DE3006A12D4 /* Forex Trade Updates */ = {
+			isa = PBXGroup;
+			children = (
+				FAF850DC2A9658890066159C /* learning files */,
+				FA3F42BF2A5D268000709F55 /* Ad Manager */,
+				FA3F42BA2A5C899900709F55 /* TableView Cells */,
+				FA4AA8E424B4B5C000C4EFC9 /* IAP */,
+				FA46D4F8249B3FD800570ADA /* models */,
+				FAA5875D24949A0300E2EC1C /* utils */,
+				FA4CBBA924925C0700CA5432 /* services */,
+				FA530B2E24912140006A12D4 /* views */,
+				FA530B2D2491213A006A12D4 /* controllers */,
+				FA530B2C24912134006A12D4 /* shared */,
+				FA530B1524911DE3006A12D4 /* AppDelegate.swift */,
+				FA530B1924911DE3006A12D4 /* ViewController.swift */,
+				FA530B1B24911DE3006A12D4 /* Main.storyboard */,
+				FA530B2124911DE5006A12D4 /* Assets.xcassets */,
+				FA530B2324911DE5006A12D4 /* LaunchScreen.storyboard */,
+				FA530B2624911DE5006A12D4 /* Info.plist */,
+				FA466B1924976901009C96D7 /* GoogleService-Info.plist */,
+				FA530B1E24911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodeld */,
+			);
+			path = "Forex Trade Updates";
+			sourceTree = "<group>";
+		};
+		FA530B2C24912134006A12D4 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				FA530B39249123C4006A12D4 /* AlertControllerHelper.swift */,
+				FA530B3A249123C4006A12D4 /* CheckInternetConnection.swift */,
+				FA530B3C249123C4006A12D4 /* Designable.swift */,
+				FA530B38249123C4006A12D4 /* Extensions.swift */,
+				FA530B3B249123C4006A12D4 /* RoundedtxtFieldView.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		FA530B2D2491213A006A12D4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB86FD32A531CE000E8C00E /* User */,
+				FAB86FD22A531CD600E8C00E /* Admin */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FA530B2E24912140006A12D4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FAA5875D24949A0300E2EC1C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5875E24949A1A00E2EC1C /* Actions.swift */,
+				FA30CC272494D21A00C502FC /* Constants.swift */,
+				FA50FDEC24AB7C9700E40954 /* AppSettings.swift */,
+				FA4AA8E224B4B57E00C4EFC9 /* KBForexProducts.swift */,
+				FABF45642A97729700305F49 /* UserDefaults.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		FAB86FD22A531CD600E8C00E /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				FA4A88662496199600DDF760 /* NewNotifForm.swift */,
+				FA45F6562497FFE600B39135 /* AdminDashboardVC.swift */,
+				FA0EBDAB24A33DA600905874 /* AllUsersVC.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		FAB86FD32A531CE000E8C00E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FABC8AEF2A99DF3C00F1EE1B /* SubscriptionPopup.swift */,
+				FAB7FCFD2B62892600D01CD9 /* SubscriptionPopupChat.swift */,
+				FA530B342491239B006A12D4 /* UserDashVC.swift */,
+				FA52A8C024916AFA00BE1E40 /* UserHomeVC.swift */,
+				FA52A8C224916B0D00BE1E40 /* UserSupportChatVC.swift */,
+				FA4CBBA72492230600CA5432 /* TestChatVC.swift */,
+				FA4D2C292492B87200784130 /* TabBarHome.swift */,
+				FA72E9CF2493F0C100A71E21 /* SplashScreen.swift */,
+				FA4F135C24B219DA00752DB6 /* SubscriptionOptionsController.swift */,
+				FA6B68FA24BF51BF00F42D19 /* ForgotPasswordVC.swift */,
+				FA5AB75124C2E73D004593CA /* SubscriptionsDetailVC.swift */,
+				FA530B322491239B006A12D4 /* SignupVC.swift */,
+				FA530B332491239B006A12D4 /* SigninVC.swift */,
+				FABE2E0F2A548F1D00E9DC1E /* NavigationHomeVC.swift */,
+				FA6D2D692A54AE820033AB1D /* ProfileVC.swift */,
+				FAA7B0ED2A94E0C200058881 /* FreeReadVC.swift */,
+				FAF850E32A966B410066159C /* LoadPDFVC.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		FAF850DC2A9658890066159C /* learning files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E9A002B56DA4D00E89C2C /* How to Secure Profits.pdf */,
+				FA3E99FF2B56DA4C00E89C2C /* How To Take A Signal.pdf */,
+				FA3E9A012B56DA4E00E89C2C /* What is a Pip.pdf */,
+				FABF45622A973F0600305F49 /* KB's Forex E-Book-Master Your Mindset.pdf */,
+			);
+			path = "learning files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA530B1124911DE3006A12D4 /* Forex Trade Updates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA530B2924911DE5006A12D4 /* Build configuration list for PBXNativeTarget "Forex Trade Updates" */;
+			buildPhases = (
+				6F73C3B6620CCBD206A79939 /* [CP] Check Pods Manifest.lock */,
+				FA530B0E24911DE3006A12D4 /* Sources */,
+				FA530B0F24911DE3006A12D4 /* Frameworks */,
+				FA530B1024911DE3006A12D4 /* Resources */,
+				98DCE0EDB1BFAF37EDC6BACA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forex Trade Updates";
+			productName = "Forex Trade Updates";
+			productReference = FA530B1224911DE3006A12D4 /* KBs Forex Signals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA530B0A24911DE3006A12D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Arslan;
+				TargetAttributes = {
+					FA530B1124911DE3006A12D4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA530B0D24911DE3006A12D4 /* Build configuration list for PBXProject "Forex Trade Updates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA530B0924911DE3006A12D4;
+			productRefGroup = FA530B1324911DE3006A12D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA530B1124911DE3006A12D4 /* Forex Trade Updates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA530B1024911DE3006A12D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA466B1A24976901009C96D7 /* GoogleService-Info.plist in Resources */,
+				FA530B2524911DE5006A12D4 /* LaunchScreen.storyboard in Resources */,
+				FA530B2224911DE5006A12D4 /* Assets.xcassets in Resources */,
+				FA3E9A042B56DA4F00E89C2C /* What is a Pip.pdf in Resources */,
+				FA3E9A022B56DA4F00E89C2C /* How To Take A Signal.pdf in Resources */,
+				FABF45632A973F0700305F49 /* KB's Forex E-Book-Master Your Mindset.pdf in Resources */,
+				FA3E9A032B56DA4F00E89C2C /* How to Secure Profits.pdf in Resources */,
+				FA530B1D24911DE3006A12D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F73C3B6620CCBD206A79939 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Forex Trade Updates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98DCE0EDB1BFAF37EDC6BACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Forex Trade Updates/Pods-Forex Trade Updates-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Forex Trade Updates/Pods-Forex Trade Updates-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Forex Trade Updates/Pods-Forex Trade Updates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA530B0E24911DE3006A12D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA50FDED24AB7C9700E40954 /* AppSettings.swift in Sources */,
+				FA46D4FA249B3FF100570ADA /* NotifSentModel.swift in Sources */,
+				FA4D2C2A2492B87200784130 /* TabBarHome.swift in Sources */,
+				FA530B3E249123C4006A12D4 /* AlertControllerHelper.swift in Sources */,
+				FA530B3F249123C4006A12D4 /* CheckInternetConnection.swift in Sources */,
+				FA4AA8E324B4B57E00C4EFC9 /* KBForexProducts.swift in Sources */,
+				FA4AA8E624B4B8EA00C4EFC9 /* IAPManager.swift in Sources */,
+				FA52A8C124916AFA00BE1E40 /* UserHomeVC.swift in Sources */,
+				FA530B2024911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodeld in Sources */,
+				FA530B352491239B006A12D4 /* SignupVC.swift in Sources */,
+				FA50FDEB24AB701400E40954 /* Message.swift in Sources */,
+				FA530B1A24911DE3006A12D4 /* ViewController.swift in Sources */,
+				FA530B41249123C4006A12D4 /* Designable.swift in Sources */,
+				FAF850E42A966B410066159C /* LoadPDFVC.swift in Sources */,
+				FA52A8C324916B0D00BE1E40 /* UserSupportChatVC.swift in Sources */,
+				FA6B68FB24BF51BF00F42D19 /* ForgotPasswordVC.swift in Sources */,
+				FABF45652A97729700305F49 /* UserDefaults.swift in Sources */,
+				FA72E9D02493F0C100A71E21 /* SplashScreen.swift in Sources */,
+				FA530B3D249123C4006A12D4 /* Extensions.swift in Sources */,
+				FA530B1624911DE3006A12D4 /* AppDelegate.swift in Sources */,
+				FA89FEFD24AAFC51004D84EE /* Chat.swift in Sources */,
+				FA530B362491239B006A12D4 /* SigninVC.swift in Sources */,
+				FAB7FCFE2B62892700D01CD9 /* SubscriptionPopupChat.swift in Sources */,
+				FA530B40249123C4006A12D4 /* RoundedtxtFieldView.swift in Sources */,
+				FAB86FD12A51D36500E8C00E /* Subscriptions.swift in Sources */,
+				FABC8AF02A99DF3D00F1EE1B /* SubscriptionPopup.swift in Sources */,
+				FA530B372491239B006A12D4 /* UserDashVC.swift in Sources */,
+				FA4A88672496199600DDF760 /* NewNotifForm.swift in Sources */,
+				FA3F42BE2A5C8BCF00709F55 /* AdModel.swift in Sources */,
+				FA4F135D24B219DA00752DB6 /* SubscriptionOptionsController.swift in Sources */,
+				FAA7B0EE2A94E0C200058881 /* FreeReadVC.swift in Sources */,
+				FA30CC282494D21A00C502FC /* Constants.swift in Sources */,
+				FA0EBDAC24A33DA600905874 /* AllUsersVC.swift in Sources */,
+				FA3F42C12A5D269400709F55 /* AdManager.swift in Sources */,
+				FA44409124BD739600055CB7 /* ManageUserSubscriptions.swift in Sources */,
+				FA30CC262494A3DC00C502FC /* AuthenticationService.swift in Sources */,
+				FABE2E102A548F1D00E9DC1E /* NavigationHomeVC.swift in Sources */,
+				FA6D2D6A2A54AE820033AB1D /* ProfileVC.swift in Sources */,
+				FAA5875F24949A1A00E2EC1C /* Actions.swift in Sources */,
+				FA3F42BC2A5C89B600709F55 /* BannerAdCell.swift in Sources */,
+				FA45F6572497FFE600B39135 /* AdminDashboardVC.swift in Sources */,
+				FA5AB75224C2E73D004593CA /* SubscriptionsDetailVC.swift in Sources */,
+				FA4CBBA82492230700CA5432 /* TestChatVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA530B1B24911DE3006A12D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA530B1C24911DE3006A12D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA530B2324911DE5006A12D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA530B2424911DE5006A12D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA530B2724911DE5006A12D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA530B2824911DE5006A12D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA530B2A24911DE5006A12D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A74D45ECEABB74B2752375F /* Pods-Forex Trade Updates.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Forex Trade Updates/Forex Trade Updates.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = NFVJB457WU;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DropDown/DropDown.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAppCheckInterop/FirebaseAppCheckInterop.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuthInterop/FirebaseAuthInterop.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreExtension/FirebaseCoreExtension.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging/FirebaseMessaging.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage/FirebaseStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth/GTMAppAuth.framework/Headers\"",
+					"$(PODS_ROOT)/GTMSessionFetcher",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MessageKit/MessageKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Purchases/Purchases.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PurchasesCoreSwift/PurchasesCoreSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RecaptchaInterop/RecaptchaInterop.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
+				INFOPLIST_FILE = "Forex Trade Updates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+					"$(inherited)",
+					"@executable_path/Framework",
+				);
+				MARKETING_VERSION = 1.2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KBs.ForexSignals;
+				PRODUCT_NAME = "KBs Forex Signals";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA530B2B24911DE5006A12D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE079231AA64D0D50320DED /* Pods-Forex Trade Updates.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Forex Trade Updates/Forex Trade Updates.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = NFVJB457WU;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DropDown/DropDown.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAppCheckInterop/FirebaseAppCheckInterop.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuthInterop/FirebaseAuthInterop.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreExtension/FirebaseCoreExtension.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging/FirebaseMessaging.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage/FirebaseStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth/GTMAppAuth.framework/Headers\"",
+					"$(PODS_ROOT)/GTMSessionFetcher",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MessageKit/MessageKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Purchases/Purchases.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PurchasesCoreSwift/PurchasesCoreSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RecaptchaInterop/RecaptchaInterop.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
+				INFOPLIST_FILE = "Forex Trade Updates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+					"$(inherited)",
+					"@executable_path/Framework",
+				);
+				MARKETING_VERSION = 1.2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KBs.ForexSignals;
+				PRODUCT_NAME = "KBs Forex Signals";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA530B0D24911DE3006A12D4 /* Build configuration list for PBXProject "Forex Trade Updates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA530B2724911DE5006A12D4 /* Debug */,
+				FA530B2824911DE5006A12D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA530B2924911DE5006A12D4 /* Build configuration list for PBXNativeTarget "Forex Trade Updates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA530B2A24911DE5006A12D4 /* Debug */,
+				FA530B2B24911DE5006A12D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA530B1E24911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA530B1F24911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodel */,
+			);
+			currentVersion = FA530B1F24911DE3006A12D4 /* Forex_Trade_Updates.xcdatamodel */;
+			path = Forex_Trade_Updates.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA530B0A24911DE3006A12D4 /* Project object */;
+}
